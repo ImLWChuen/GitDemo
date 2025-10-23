@@ -3,5 +3,8 @@ public class Main {
         // Test
         System.out.println("Hello GitHub!");
         System.out.println("This is my second commit!");
+
+        Login login = new Login();
+        login.loginUser("Alice123");
     }
 }
